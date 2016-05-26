@@ -1,0 +1,6 @@
+framework module Pods_RingSharedFramework {
+  umbrella header "Pods-RingSharedFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
