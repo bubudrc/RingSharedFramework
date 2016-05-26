@@ -1,1052 +1,525 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0692B4E14B6E965AA26C7841</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_RingSharedFrameworkMAC.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>072B792B2D916B761DC11D45</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_RingSharedFramework.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>171E64A227CBB7153EE12D5F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>072B792B2D916B761DC11D45</string>
-				<string>0692B4E14B6E965AA26C7841</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>18DDF345D204AF03D842346E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>23496403EB6B8527A5B6D4FD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-RingSharedFrameworkMAC.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-RingSharedFrameworkMAC/Pods-RingSharedFrameworkMAC.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2DFA96A5606CFD76C91BA078</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4D5357589A906524410D30C9</string>
-				<string>C49B4C83768C20A720474C71</string>
-				<string>5A665B43F264DB4902F4B8CE</string>
-				<string>23496403EB6B8527A5B6D4FD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D5357589A906524410D30C9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-RingSharedFramework.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-RingSharedFramework/Pods-RingSharedFramework.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>51E6DCC4F4CB7C1B70DDB231</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>5A665B43F264DB4902F4B8CE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-RingSharedFrameworkMAC.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-RingSharedFrameworkMAC/Pods-RingSharedFrameworkMAC.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>70BB43002FA23A07057FA67E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>072B792B2D916B761DC11D45</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7C7149BCFC710384662B0CC4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-RingSharedFramework/Pods-RingSharedFramework-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>9C71BED71CF749CF00720203</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9C71BEF91CF749E800720203</string>
-				<string>9C71BEE31CF749CF00720203</string>
-				<string>9C71BEF21CF749E100720203</string>
-				<string>9C71BEE21CF749CF00720203</string>
-				<string>2DFA96A5606CFD76C91BA078</string>
-				<string>171E64A227CBB7153EE12D5F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9C71BED81CF749CF00720203</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0730</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Ring</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>9C71BEE01CF749CF00720203</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3.1</string>
-					</dict>
-					<key>9C71BEF01CF749E100720203</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3.1</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>9C71BEDB1CF749CF00720203</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>9C71BED71CF749CF00720203</string>
-			<key>productRefGroup</key>
-			<string>9C71BEE21CF749CF00720203</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>9C71BEE01CF749CF00720203</string>
-				<string>9C71BEF01CF749E100720203</string>
-			</array>
-		</dict>
-		<key>9C71BEDB1CF749CF00720203</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>9C71BEE71CF749CF00720203</string>
-				<string>9C71BEE81CF749CF00720203</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>9C71BEDC1CF749CF00720203</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9C71BEFE1CF74A0A00720203</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9C71BEDD1CF749CF00720203</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>70BB43002FA23A07057FA67E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9C71BEDE1CF749CF00720203</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9C71BEFC1CF74A0A00720203</string>
-				<string>9C71BEE51CF749CF00720203</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9C71BEDF1CF749CF00720203</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9C71BEE01CF749CF00720203</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>9C71BEE91CF749CF00720203</string>
-			<key>buildPhases</key>
-			<array>
-				<string>51E6DCC4F4CB7C1B70DDB231</string>
-				<string>9C71BEDC1CF749CF00720203</string>
-				<string>9C71BEDD1CF749CF00720203</string>
-				<string>9C71BEDE1CF749CF00720203</string>
-				<string>9C71BEDF1CF749CF00720203</string>
-				<string>7C7149BCFC710384662B0CC4</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>RingSharedFramework</string>
-			<key>productName</key>
-			<string>RingSharedFramework</string>
-			<key>productReference</key>
-			<string>9C71BEE11CF749CF00720203</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>9C71BEE11CF749CF00720203</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>RingSharedFramework.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>9C71BEE21CF749CF00720203</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9C71BEE11CF749CF00720203</string>
-				<string>9C71BEF11CF749E100720203</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9C71BEE31CF749CF00720203</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9C71BEE41CF749CF00720203</string>
-				<string>9C71BEE61CF749CF00720203</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>RingSharedFramework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9C71BEE41CF749CF00720203</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RingSharedFramework.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9C71BEE51CF749CF00720203</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9C71BEE41CF749CF00720203</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>9C71BEE61CF749CF00720203</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9C71BEE71CF749CF00720203</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>9C71BEE81CF749CF00720203</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>9C71BEE91CF749CF00720203</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>9C71BEEA1CF749CF00720203</string>
-				<string>9C71BEEB1CF749CF00720203</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>9C71BEEA1CF749CF00720203</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>4D5357589A906524410D30C9</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>INFOPLIST_FILE</key>
-				<string>RingSharedFramework/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.ring.RingSharedFramework</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>9C71BEEB1CF749CF00720203</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C49B4C83768C20A720474C71</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>INFOPLIST_FILE</key>
-				<string>RingSharedFramework/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.ring.RingSharedFramework</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>9C71BEEC1CF749E100720203</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9C71BEFF1CF74A0A00720203</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9C71BEED1CF749E100720203</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B3EF70A92171F92D599987C9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9C71BEEE1CF749E100720203</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9C71BEFD1CF74A0A00720203</string>
-				<string>9C71BEF41CF749E100720203</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9C71BEEF1CF749E100720203</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9C71BEF01CF749E100720203</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>9C71BEF61CF749E100720203</string>
-			<key>buildPhases</key>
-			<array>
-				<string>18DDF345D204AF03D842346E</string>
-				<string>9C71BEEC1CF749E100720203</string>
-				<string>9C71BEED1CF749E100720203</string>
-				<string>9C71BEEE1CF749E100720203</string>
-				<string>9C71BEEF1CF749E100720203</string>
-				<string>CD16A248926EA92CE930A0B3</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>RingSharedFrameworkMAC</string>
-			<key>productName</key>
-			<string>RingSharedFrameworkMAC</string>
-			<key>productReference</key>
-			<string>9C71BEF11CF749E100720203</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>9C71BEF11CF749E100720203</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>RingSharedFrameworkMAC.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>9C71BEF21CF749E100720203</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9C71BEF31CF749E100720203</string>
-				<string>9C71BEF51CF749E100720203</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>RingSharedFrameworkMAC</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9C71BEF31CF749E100720203</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RingSharedFrameworkMAC.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9C71BEF41CF749E100720203</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9C71BEF31CF749E100720203</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>9C71BEF51CF749E100720203</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9C71BEF61CF749E100720203</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>9C71BEF71CF749E100720203</string>
-				<string>9C71BEF81CF749E100720203</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>9C71BEF71CF749E100720203</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>5A665B43F264DB4902F4B8CE</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>-</string>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>FRAMEWORK_VERSION</key>
-				<string>A</string>
-				<key>INFOPLIST_FILE</key>
-				<string>RingSharedFrameworkMAC/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/../Frameworks @loader_path/Frameworks</string>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.11</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.ring.RingSharedFrameworkMAC</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>9C71BEF81CF749E100720203</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>23496403EB6B8527A5B6D4FD</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>-</string>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>FRAMEWORK_VERSION</key>
-				<string>A</string>
-				<key>INFOPLIST_FILE</key>
-				<string>RingSharedFrameworkMAC/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/../Frameworks @loader_path/Frameworks</string>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.11</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.ring.RingSharedFrameworkMAC</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>9C71BEF91CF749E800720203</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9C71BEFA1CF74A0A00720203</string>
-				<string>9C71BEFB1CF74A0A00720203</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Common-Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9C71BEFA1CF74A0A00720203</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TestSharedClass.h</string>
-			<key>path</key>
-			<string>RingSharedFramework/Common-Files/TestSharedClass.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9C71BEFB1CF74A0A00720203</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>TestSharedClass.m</string>
-			<key>path</key>
-			<string>RingSharedFramework/Common-Files/TestSharedClass.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9C71BEFC1CF74A0A00720203</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9C71BEFA1CF74A0A00720203</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9C71BEFD1CF74A0A00720203</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9C71BEFA1CF74A0A00720203</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9C71BEFE1CF74A0A00720203</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9C71BEFB1CF74A0A00720203</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9C71BEFF1CF74A0A00720203</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9C71BEFB1CF74A0A00720203</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B3EF70A92171F92D599987C9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0692B4E14B6E965AA26C7841</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C49B4C83768C20A720474C71</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-RingSharedFramework.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-RingSharedFramework/Pods-RingSharedFramework.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CD16A248926EA92CE930A0B3</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-RingSharedFrameworkMAC/Pods-RingSharedFrameworkMAC-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>9C71BED81CF749CF00720203</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70BB43002FA23A07057FA67E /* Pods_RingSharedFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 072B792B2D916B761DC11D45 /* Pods_RingSharedFramework.framework */; };
+		9C08326D1CF74C150005B95C /* TestCommonClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C08326B1CF74C150005B95C /* TestCommonClass.h */; };
+		9C08326E1CF74C150005B95C /* TestCommonClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C08326B1CF74C150005B95C /* TestCommonClass.h */; };
+		9C08326F1CF74C150005B95C /* TestCommonClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C08326C1CF74C150005B95C /* TestCommonClass.m */; };
+		9C0832701CF74C150005B95C /* TestCommonClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C08326C1CF74C150005B95C /* TestCommonClass.m */; };
+		9C71BEE51CF749CF00720203 /* RingSharedFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C71BEE41CF749CF00720203 /* RingSharedFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C71BEF41CF749E100720203 /* RingSharedFrameworkMAC.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C71BEF31CF749E100720203 /* RingSharedFrameworkMAC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3EF70A92171F92D599987C9 /* Pods_RingSharedFrameworkMAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0692B4E14B6E965AA26C7841 /* Pods_RingSharedFrameworkMAC.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0692B4E14B6E965AA26C7841 /* Pods_RingSharedFrameworkMAC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RingSharedFrameworkMAC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		072B792B2D916B761DC11D45 /* Pods_RingSharedFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RingSharedFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23496403EB6B8527A5B6D4FD /* Pods-RingSharedFrameworkMAC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RingSharedFrameworkMAC.release.xcconfig"; path = "Pods/Target Support Files/Pods-RingSharedFrameworkMAC/Pods-RingSharedFrameworkMAC.release.xcconfig"; sourceTree = "<group>"; };
+		4D5357589A906524410D30C9 /* Pods-RingSharedFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RingSharedFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RingSharedFramework/Pods-RingSharedFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		5A665B43F264DB4902F4B8CE /* Pods-RingSharedFrameworkMAC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RingSharedFrameworkMAC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RingSharedFrameworkMAC/Pods-RingSharedFrameworkMAC.debug.xcconfig"; sourceTree = "<group>"; };
+		9C08326B1CF74C150005B95C /* TestCommonClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestCommonClass.h; path = "Common-Files/TestCommonClass.h"; sourceTree = "<group>"; };
+		9C08326C1CF74C150005B95C /* TestCommonClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestCommonClass.m; path = "Common-Files/TestCommonClass.m"; sourceTree = "<group>"; };
+		9C71BEE11CF749CF00720203 /* RingSharedFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RingSharedFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C71BEE41CF749CF00720203 /* RingSharedFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RingSharedFramework.h; sourceTree = "<group>"; };
+		9C71BEE61CF749CF00720203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C71BEF11CF749E100720203 /* RingSharedFrameworkMAC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RingSharedFrameworkMAC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C71BEF31CF749E100720203 /* RingSharedFrameworkMAC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RingSharedFrameworkMAC.h; sourceTree = "<group>"; };
+		9C71BEF51CF749E100720203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49B4C83768C20A720474C71 /* Pods-RingSharedFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RingSharedFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-RingSharedFramework/Pods-RingSharedFramework.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C71BEDD1CF749CF00720203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70BB43002FA23A07057FA67E /* Pods_RingSharedFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C71BEED1CF749E100720203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EF70A92171F92D599987C9 /* Pods_RingSharedFrameworkMAC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		171E64A227CBB7153EE12D5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				072B792B2D916B761DC11D45 /* Pods_RingSharedFramework.framework */,
+				0692B4E14B6E965AA26C7841 /* Pods_RingSharedFrameworkMAC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DFA96A5606CFD76C91BA078 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D5357589A906524410D30C9 /* Pods-RingSharedFramework.debug.xcconfig */,
+				C49B4C83768C20A720474C71 /* Pods-RingSharedFramework.release.xcconfig */,
+				5A665B43F264DB4902F4B8CE /* Pods-RingSharedFrameworkMAC.debug.xcconfig */,
+				23496403EB6B8527A5B6D4FD /* Pods-RingSharedFrameworkMAC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C71BED71CF749CF00720203 = {
+			isa = PBXGroup;
+			children = (
+				9C71BEF91CF749E800720203 /* Common-Files */,
+				9C71BEE31CF749CF00720203 /* RingSharedFramework */,
+				9C71BEF21CF749E100720203 /* RingSharedFrameworkMAC */,
+				9C71BEE21CF749CF00720203 /* Products */,
+				2DFA96A5606CFD76C91BA078 /* Pods */,
+				171E64A227CBB7153EE12D5F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9C71BEE21CF749CF00720203 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C71BEE11CF749CF00720203 /* RingSharedFramework.framework */,
+				9C71BEF11CF749E100720203 /* RingSharedFrameworkMAC.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C71BEE31CF749CF00720203 /* RingSharedFramework */ = {
+			isa = PBXGroup;
+			children = (
+				9C71BEE41CF749CF00720203 /* RingSharedFramework.h */,
+				9C71BEE61CF749CF00720203 /* Info.plist */,
+			);
+			path = RingSharedFramework;
+			sourceTree = "<group>";
+		};
+		9C71BEF21CF749E100720203 /* RingSharedFrameworkMAC */ = {
+			isa = PBXGroup;
+			children = (
+				9C71BEF31CF749E100720203 /* RingSharedFrameworkMAC.h */,
+				9C71BEF51CF749E100720203 /* Info.plist */,
+			);
+			path = RingSharedFrameworkMAC;
+			sourceTree = "<group>";
+		};
+		9C71BEF91CF749E800720203 /* Common-Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C08326B1CF74C150005B95C /* TestCommonClass.h */,
+				9C08326C1CF74C150005B95C /* TestCommonClass.m */,
+			);
+			name = "Common-Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9C71BEDE1CF749CF00720203 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C08326D1CF74C150005B95C /* TestCommonClass.h in Headers */,
+				9C71BEE51CF749CF00720203 /* RingSharedFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C71BEEE1CF749E100720203 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C08326E1CF74C150005B95C /* TestCommonClass.h in Headers */,
+				9C71BEF41CF749E100720203 /* RingSharedFrameworkMAC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9C71BEE01CF749CF00720203 /* RingSharedFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C71BEE91CF749CF00720203 /* Build configuration list for PBXNativeTarget "RingSharedFramework" */;
+			buildPhases = (
+				51E6DCC4F4CB7C1B70DDB231 /* Check Pods Manifest.lock */,
+				9C71BEDC1CF749CF00720203 /* Sources */,
+				9C71BEDD1CF749CF00720203 /* Frameworks */,
+				9C71BEDE1CF749CF00720203 /* Headers */,
+				9C71BEDF1CF749CF00720203 /* Resources */,
+				7C7149BCFC710384662B0CC4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RingSharedFramework;
+			productName = RingSharedFramework;
+			productReference = 9C71BEE11CF749CF00720203 /* RingSharedFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C71BEF01CF749E100720203 /* RingSharedFrameworkMAC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C71BEF61CF749E100720203 /* Build configuration list for PBXNativeTarget "RingSharedFrameworkMAC" */;
+			buildPhases = (
+				18DDF345D204AF03D842346E /* Check Pods Manifest.lock */,
+				9C71BEEC1CF749E100720203 /* Sources */,
+				9C71BEED1CF749E100720203 /* Frameworks */,
+				9C71BEEE1CF749E100720203 /* Headers */,
+				9C71BEEF1CF749E100720203 /* Resources */,
+				CD16A248926EA92CE930A0B3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RingSharedFrameworkMAC;
+			productName = RingSharedFrameworkMAC;
+			productReference = 9C71BEF11CF749E100720203 /* RingSharedFrameworkMAC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C71BED81CF749CF00720203 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Ring;
+				TargetAttributes = {
+					9C71BEE01CF749CF00720203 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9C71BEF01CF749E100720203 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9C71BEDB1CF749CF00720203 /* Build configuration list for PBXProject "RingSharedFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9C71BED71CF749CF00720203;
+			productRefGroup = 9C71BEE21CF749CF00720203 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C71BEE01CF749CF00720203 /* RingSharedFramework */,
+				9C71BEF01CF749E100720203 /* RingSharedFrameworkMAC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C71BEDF1CF749CF00720203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C71BEEF1CF749E100720203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18DDF345D204AF03D842346E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		51E6DCC4F4CB7C1B70DDB231 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7C7149BCFC710384662B0CC4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RingSharedFramework/Pods-RingSharedFramework-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD16A248926EA92CE930A0B3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RingSharedFrameworkMAC/Pods-RingSharedFrameworkMAC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C71BEDC1CF749CF00720203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C08326F1CF74C150005B95C /* TestCommonClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C71BEEC1CF749E100720203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C0832701CF74C150005B95C /* TestCommonClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9C71BEE71CF749CF00720203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C71BEE81CF749CF00720203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C71BEEA1CF749CF00720203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D5357589A906524410D30C9 /* Pods-RingSharedFramework.debug.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RingSharedFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ring.RingSharedFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9C71BEEB1CF749CF00720203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C49B4C83768C20A720474C71 /* Pods-RingSharedFramework.release.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RingSharedFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ring.RingSharedFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9C71BEF71CF749E100720203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A665B43F264DB4902F4B8CE /* Pods-RingSharedFrameworkMAC.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = RingSharedFrameworkMAC/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ring.RingSharedFrameworkMAC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9C71BEF81CF749E100720203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23496403EB6B8527A5B6D4FD /* Pods-RingSharedFrameworkMAC.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = RingSharedFrameworkMAC/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ring.RingSharedFrameworkMAC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C71BEDB1CF749CF00720203 /* Build configuration list for PBXProject "RingSharedFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C71BEE71CF749CF00720203 /* Debug */,
+				9C71BEE81CF749CF00720203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C71BEE91CF749CF00720203 /* Build configuration list for PBXNativeTarget "RingSharedFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C71BEEA1CF749CF00720203 /* Debug */,
+				9C71BEEB1CF749CF00720203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C71BEF61CF749E100720203 /* Build configuration list for PBXNativeTarget "RingSharedFrameworkMAC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C71BEF71CF749E100720203 /* Debug */,
+				9C71BEF81CF749E100720203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C71BED81CF749CF00720203 /* Project object */;
+}
