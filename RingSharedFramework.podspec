@@ -8,7 +8,7 @@ s.summary = "RingSharedFramework lets a user share code between iOS and MAC's pl
 s.requires_arc = true
 
 # 2
-s.version = "0.1.6"
+s.version = "0.2.1"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
